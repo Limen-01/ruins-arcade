@@ -1,0 +1,30 @@
+{
+  "name": "ruins-arcade",
+  "version": "1.7.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:browser": "playwright test",
+    "test:pages": "node scripts/verify-pages.mjs",
+    "build": "tsc --noEmit && vite build && node scripts/asset-list.mjs",
+    "build:pages": "vite build --base=/ruins-arcade/ && node scripts/asset-list.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "preview:pages": "vite preview --host 127.0.0.1 --port 4173 --base=/ruins-arcade/"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/node": "24.7.0",
+    "typescript": "5.9.3",
+    "vite": "7.1.12",
+    "vitest": "3.2.4"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

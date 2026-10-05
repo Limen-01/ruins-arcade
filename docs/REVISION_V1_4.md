@@ -1,0 +1,11 @@
+# Historical v1.4 full-lane flame and electric-field revision
+
+This records the v1.4 specification. `REVISION_V1_5.md` supersedes its conflicting electric-field, flame-catalog, arrow-speed and ground-fire progression rules. Preserve the five-stage run, finite complete waves, one point per fully survived wave, stage transitions, controls, art, accessibility, persistence and offline PWA.
+
+Every beast-head flame event covers exactly one complete six-cell row or column, with a matching exterior source, visible extent and continuous collision. No partial flame lane is playable. Ground fire and lightning remain local. The central-pocket pattern interweaves full horizontal and vertical lanes around a clear interior pocket; exterior safe regions may remain. Two rows and two columns around a central cell provide the enclosed example. An asymmetric one-row/two-column variant is an open channel, not an enclosed cell. Maintain authored variants and validate access during the whole wave.
+
+Stage 3 begins with a longer flame warning than v1.3, then tapers smoothly to a fair configured minimum. Lightning warnings also taper. Lightning has authored instant and sustained-field variants. The field damages continuously while visibly charged; decorative residue is separate and safe. Snapshot every event's targets, warning, active duration and mode when its wave is constructed.
+
+Mid/late lightning and both flame-family stages gain stronger sequence and recovery pressure, earlier advanced selection and sustained route restrictions. Stage 5 begins at elevated bounded pressure after a short readable preparation beat, composes compatible finite motifs with substantial internal overlap, and retains occasional simple recovery waves. No cross-wave attack stream or global duration multiplier is allowed.
+
+Every candidate, including fallback, requires complete space-time validation from current movement and input buffer with realistic reaction/cadence, continuous hazard collision and witness replay. Preserve scoring and stage reset. Verify full-lane geometry across dedicated and mixed patterns, safe-pocket and asymmetric variants, both lightning forms and late entry, timing snapshots, fairness and offline production behavior. Capture and inspect phone-size timed frames. Real-device feel and human balance remain separate acceptance checks.

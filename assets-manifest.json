@@ -1,0 +1,11 @@
+{
+  "version": "1.2.0",
+  "assets": [
+    {"id":"arena","path":"public/assets/arena.svg","source":"original layered vector authored for this project","author":"Codex","license":"original project asset","size":"720x850 SVG","frames":"single","pivot":[0.5,0.5],"worldScale":1.25,"use":"terrain, ruins, vegetation and outer machinery silhouette"},
+    {"id":"adventurer-source","path":"public/assets/hero.svg","source":"original character concept authored for this project","author":"Codex","license":"original project asset","size":"80x98 SVG","frames":"source concept","pivot":[0.5,0.5],"worldScale":0.76,"use":"character reference source"},
+    {"id":"adventurer-frames","path":"public/assets/hero/*.svg","source":"scripts/assets/generate_hero.py; original layered vector rig","author":"Codex","license":"original project asset","size":"80x98 SVG each","frames":"four idle and six walk per direction, four directions; 40 files","pivot":[0.5,0.5],"worldScale":0.76,"use":"player directional idle and walk animation"},
+    {"id":"app-icon","path":"public/assets/icon.svg","source":"original vector derived from project artwork","author":"Codex","license":"original project asset","size":"192x192 SVG","frames":"single","pivot":[0.5,0.5],"worldScale":1,"use":"PWA icon"},
+    {"id":"hazard-art","path":"src/scenes/Arena.ts","source":"original procedural vector drawing","author":"Codex","license":"original project source","size":"world scale","frames":"timeline driven","pivot":[0.5,0.5],"worldScale":1,"use":"exterior source markers, moving arrows, local lightning, beast-head lane flame, ground fire and machinery mounts"},
+    {"id":"audio","path":"src/platform/audio.ts","source":"original Web Audio synthesis","author":"Codex","license":"original project source","size":"runtime synthesized","frames":"family cues and one melodic loop","pivot":null,"worldScale":null,"use":"local effects and music; no remote audio"}
+  ]
+}

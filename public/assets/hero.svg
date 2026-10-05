@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 98">
+<defs><linearGradient id="cape" x2=".8" y2="1"><stop stop-color="#286c70"/><stop offset="1" stop-color="#123c48"/></linearGradient><linearGradient id="leather" x2=".5" y2="1"><stop stop-color="#9c5e37"/><stop offset="1" stop-color="#563522"/></linearGradient></defs>
+<ellipse cx="40" cy="88" rx="21" ry="6" fill="#173e40" opacity=".26"/>
+<path d="M26 62 Q16 72 20 82 L28 78 31 67ZM53 62 Q64 71 59 83 L52 78 49 66Z" fill="#523622" stroke="#34291e" stroke-width="2"/>
+<path d="M29 39 Q17 50 16 75 Q29 83 40 76 Q53 85 64 75 Q63 51 52 39Z" fill="url(#cape)" stroke="#15383c" stroke-width="3"/>
+<path d="M26 44 Q40 54 54 44 L49 70 Q40 76 31 70Z" fill="#3b8280" opacity=".42"/>
+<path d="M27 26 Q40 14 54 27 L56 43 Q40 51 24 42Z" fill="url(#leather)" stroke="#44301f" stroke-width="3"/>
+<path d="M29 30 Q38 36 51 31 L49 41 Q40 45 30 39Z" fill="#dbc49b"/>
+<path d="M25 25 Q31 7 42 9 Q53 11 56 27 Q45 20 26 29Z" fill="#3f3430" stroke="#2c2828" stroke-width="3"/>
+<path d="M33 14 Q43 8 52 20" fill="none" stroke="#806744" stroke-width="3"/>
+<path d="M22 40 Q17 45 19 58 L25 60 29 45ZM58 41 Q63 46 60 59 L54 61 51 45Z" fill="#9f7044" stroke="#543821" stroke-width="2"/>
+<path d="M55 43 Q66 39 69 48 L68 63 Q63 70 54 64Z" fill="#b4814f" stroke="#583b28" stroke-width="3"/>
+<path d="M56 48 L68 50 M56 58 L68 57" stroke="#dcb777" stroke-width="2"/>
+<path d="M29 45 L35 51 33 65 M50 45 L45 52 47 66" fill="none" stroke="#c49a5c" stroke-width="3"/>
+</svg>
