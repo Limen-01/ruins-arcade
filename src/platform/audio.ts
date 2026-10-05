@@ -3,7 +3,15 @@ export class AudioEngine {
   private nextMusic = 0;
   private musicIndex = 0;
   enabled = true;
-  unlock(): void { this.ctx ??= new AudioContext(); void this.ctx.resume(); }
+  unlock(): void {
+    // 音訊為可選能力：不支援或建立失敗時靜默降級，不可阻擋遊戲開始
+    try {
+      const Ctor = window.AudioContext ?? (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+      if (!Ctor) return;
+      this.ctx ??= new Ctor();
+      void this.ctx.resume().catch(() => undefined);
+    } catch { this.ctx = null; }
+  }
   private note(frequency: number, duration: number, type: OscillatorType, volume: number, when = 0): void {
     if (!this.ctx || !this.enabled) return;
     const start = this.ctx.currentTime + when;
